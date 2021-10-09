@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Todo App</h1>
+    <div class="take-name">
+      Pls Enter your name here <input type="text" class="username" />
+      <button class="name-taken">Next</button>
+      <p class="user-name-error"></p>
+    </div>
+    <div class="todo-app">
+      <p>
+        <span class="greetings"></span>, <span class="give-user-name"></span>
+      </p>
+      <div>Get Started by adding todo's in the list</div>
+      <div>Your Todo Count:<span class="todo-count">0</span></div>
+      <div>No of complted Task:<span class="todo-completed">0</span></div>
+      <div>No of remaining Task:<span class="remaining-todo">0</span></div>
+
+      <input type="text" class="todo" /><button class="add-todo-btn">
+        Add todo
+      </button>
+      <p class="todo-error"></p>
+      <ul class="todo-list"></ul>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
