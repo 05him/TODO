@@ -8,26 +8,41 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <h1>HiManshu ;)</h1>
+    </nav>
     <h1>Todo App</h1>
     <div class="take-name">
-      Pls Enter your name here <input type="text" class="username" />
+      Pls Enter your name here
+      <input type="text" class="username" />
       <button class="name-taken">Next</button>
       <p class="user-name-error"></p>
     </div>
-    <div class="todo-app">
-      <p>
-        <span class="greetings"></span>, <span class="give-user-name"></span>
-      </p>
-      <div>Get Started by adding todo's in the list</div>
-      <div>Your Todo Count:<span class="todo-count">0</span></div>
-      <div>No of complted Task:<span class="todo-completed">0</span></div>
-      <div>No of remaining Task:<span class="remaining-todo">0</span></div>
 
-      <input type="text" class="todo" /><button class="add-todo-btn">
-        Add todo
-      </button>
-      <p class="todo-error"></p>
-      <ul class="todo-list"></ul>
+    <div class="todo-app">
+      <div class="upper-part">
+        <p>
+          <span class="greetings"></span>, <span class="give-user-name"></span>
+        </p>
+
+        <div>Get Started by adding todo's in the list</div>
+
+        <div class="align-left top-margin">
+          Your Todo Count:<span class="todo-count">0</span>
+        </div>
+        <div class="align-left">
+          No of complted Task:<span class="todo-completed">0</span>
+        </div>
+        <div class="align-left">
+          No of remaining Task:<span class="remaining-todo">0</span>
+        </div>
+      </div>
+      <input type="text" class="todo" placeholder="add todo here" />
+      <button class="add-todo-btn">+</button>
+      <div class="lower-part">
+        <p class="todo-error"></p>
+        <ul class="todo-list"></ul>
+      </div>
     </div>
   </body>
   <script src="script.js"></script>

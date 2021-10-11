@@ -1,3 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
 body {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: gray; */
+}
+nav {
+  background-color: black;
+  color: white;
+  border-bottom-left-radius: 3rem;
+}
+nav h1 {
+  margin-top: 0;
+  margin-left: 1rem;
+  font-size: 30px;
+  padding: 1rem;
+  text-align: left;
+}
+nav + h1 {
+  font-size: 50px;
+  letter-spacing: 0.7rem;
+  text-decoration: underline dotted;
+}
+button {
+  cursor: pointer;
+}
+.take-name button {
+  display: block;
+  margin: 1rem auto;
+  width: 70px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  padding: 0.3rem;
+  border: 1px solid black;
+  border-radius: 0.7rem;
+}
+.take-name input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 18px;
+  margin-left: 0.3rem;
+}
+.user-name-error,
+.todo-error,
+.edit-error {
+  font-size: 20px;
+}
+.upper-part {
+  border: 1px solid black;
+  width: 500px;
+  margin: auto;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: gray;
+  color: white;
+  border-radius: 1rem;
+}
+.upper-part p {
+  margin-top: 0.8rem;
+}
+.greetings {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.give-user-name {
+  text-decoration: underline;
+  margin-left: 0.3rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+.top-margin {
+  margin-top: 0.7rem;
+}
+.align-left {
+  text-align: left;
+  margin-left: 1rem;
+}
+.align-left:last-of-type {
+  margin-bottom: 0.7rem;
+}
+.todo {
+  width: 280px;
+  margin: 2rem auto 1rem;
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 0.5rem;
+  padding-right: 2rem;
+  border-radius: 1.5rem;
+}
+.add-todo-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 38px;
+  height: 38px;
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transform: translateX(-35px) translateY(8px);
+  background-color: black;
+  color: white;
+}
+.todo-error {
+  margin-top: 0;
+}
+.lower-part {
+  width: 500px;
+  margin: 0 auto;
+}
+ul {
+  padding: 0;
+}
+li {
+  /* min-width: 480px; */
+  background-color: gray;
+  font-size: 23px;
+  display: flex;
+  color: white;
+  text-align: left;
+  padding: 0.5rem;
+  list-style: none;
+  margin: 1rem 0;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.edit-area {
+  width: 300px;
+  margin: auto 0 auto 1rem;
+  font-size: 20px;
+  padding-right: 0;
+  border-radius: 0.5rem;
+}
+.save-btn {
+  width: 130px;
+  margin-left: 0;
+  font-size: 14px;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.edit-error {
+  text-align: center;
+  width: 500px;
+}
+.cross-btn {
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  font-size: 20px;
+  height: 28px;
+  width: 28px;
+  border-radius: 10px;
+  align-items: center;
+}
+.cross-btn:hover {
+  transform: scale(1.2);
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-right: 1rem;
+}
+input[type="checkbox"]:active {
+  background-color: white;
+}
+.edit-btn {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 0.7rem;
+  background-color: black;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
 }
