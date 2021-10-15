@@ -220,3 +220,30 @@ li input[type="checkbox"] {
   background-color: white;
   color: black;
 }
+footer {
+  background-color: black;
+  height: 10%;
+  color: white;
+  padding: 2.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  transform: translateY(10rem);
+}
+footer div {
+  transform: translateX(1.5rem);
+}
+footer li {
+  background-color: black;
+  display: inline;
+  margin: 1rem;
+  cursor: pointer;
+}
+footer a {
+  color: black;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
