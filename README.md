@@ -6,4 +6,4 @@ In the future Database will be added in this
 Hope You liked it ;)
 
 
-Live url :- https://05him.github.io/todo/
+Live url :- https://05him.github.io/TODO/
