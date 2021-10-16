@@ -129,10 +129,12 @@ temp.removeChild(temp.childNodes[1]);
 }
 //``````````````````function to show alert before deleting a todo``````````````````````//
 function removeAlert(e,btn){
+    document.querySelector('footer').style.marginTop="10rem";
     todoApp.style.display="none";
     dlBox.style.display="block";
     displayTodo.innerText=e.path[1].childNodes[2].innerText;
     yesBtn.addEventListener('click',()=> {
+                document.querySelector('footer').style.marginTop="3rem";
                 dlBox.style.display="none"; 
                 todoApp.style.display="block";
                 todoList.removeChild(e.path[1]);
@@ -146,7 +148,7 @@ function removeAlert(e,btn){
                 remainingTodo.innerText=Number(todoCount.innerText)-Number(todoCompleted.innerText);
     });
                 
-    noBtn.addEventListener('click',()=>{dlBox.style.display="none"; todoApp.style.display="block"});
+    noBtn.addEventListener('click',()=>{dlBox.style.display="none"; todoApp.style.display="block"; document.querySelector('footer').style.marginTop="3rem";});
 }
 //````````````function to remove todo from the list`````````````````````//
 function removeTodo(e,btn){ 
